@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/rojonaitor/robot#readme",
   "dependencies": {
+    "@nut-tree/nut-js": "^3.1.1",
     "robotjs": "^0.6.0"
   }
 }
