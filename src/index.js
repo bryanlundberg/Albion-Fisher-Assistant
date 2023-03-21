@@ -1,27 +1,13 @@
 const robot = require('robotjs');
+const pixelSearch = require("./modules/utils/pixelSearch")
+const config = require("./config");
 
-function pixelSearch(xPos, yPos, width, height, targetColor) {
-  const capturedImage = robot.screen.capture(xPos, yPos, width, height);
-  
-  for (let x = 0; x < width; x++) {
-    for (let y = 0; y < height; y++) {
-      const pixelColor = capturedImage.colorAt(x, y);
-      
-      if (targetColor === pixelColor) {
-        return { x: x + xPos, y: y + yPos };
-      }
-    }
-  }
+function main() {
+	while (true) {
+		const fishIcon = pixelSearch(config.coordinates.x, config.coordinates.y, config.coordinates.w, config.coordinates.h, config.coordinates.color);
+		console.log(fishIcon)
+	}
 }
 
-const coordenadas = pixelSearch(90, 158, 209, 219, 'ffffff');
-console.log(coordenadas)
+main();
 
-
-while (true) {
-	const mouse = robot.getMousePos();
-	const hex = robot.getPixelColor(mouse.x, mouse.y);
-	console.log("#" + hex + " at x:" + mouse.x + " y:" + mouse.y);
-	const coordenadas = pixelSearch(90, 158, 209, 219, 'ffffff');
-	console.log(coordenadas)
-}
