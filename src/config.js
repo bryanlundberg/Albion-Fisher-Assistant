@@ -8,24 +8,24 @@ module.exports = {
     color: "c1d5fd"
   },
 	gameReferenceLeft: {
-		x: 864,
-		y: 547,
-		w: 932,
-		h: 574,
-		color: "f52208"
+		x: 855,
+		y: 521,
+		w: 963,
+		h: 549,
+		color: "ffb41f"
 	},
 	gameReferenceRight: {
-		x: 1012,
-		y: 548,
-		w: 1061,
-		h: 574,
-		color: "f52208"
+		x: 1000,
+		y: 521,
+		w: 1056,
+		h: 549,
+		color: "ffb41f"
 	},
 	endGameReference: {
-		x: 857,
-		y: 290,
-		w: 883,
-		h: 293,
-		color: "fdd598"
+		x: 847,
+		y: 319,
+		w: 877,
+		h: 329,
+		color: "e6d544"
 	},
 };
