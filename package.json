@@ -1,25 +1,24 @@
 {
-  "name": "robot",
+  "name": "Albion-Fisher-Assistant",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-		"devstart": "node src/index.js",
+    "devstart": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rojonaitor/robot.git"
+    "url": "git+https://github.com/bryanlundberg/Albion-Fisher-Assistant.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rojonaitor/robot/issues"
+    "url": "https://github.com/bryanlundberg/Albion-Fisher-Assistant/issues"
   },
-  "homepage": "https://github.com/rojonaitor/robot#readme",
+  "homepage": "https://github.com/bryanlundberg/Albion-Fisher-Assistant#readme",
   "dependencies": {
-    "@nut-tree/nut-js": "^3.1.1",
     "robotjs": "^0.6.0"
   }
 }
