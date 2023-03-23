@@ -5,7 +5,7 @@ This is a fishing assistant for the fishing mini-game in [Albion Online](https:/
 ## How it Works
 
 The fishing assistant uses pixel recognition to detect the fishing mini-game and automatically plays the game on behalf of the player. 
-![visual sample about using the tool](https://media.discordapp.net/attachments/526848348095774721/1088480781200003262/f59edec00717ce9719b735ad29b6953b.gif)
+![visual sample about using the tool](https://media.discordapp.net/attachments/526848348095774721/1088482321893687386/3rnvH9G.png?width=728&height=410)
 
 ## Getting Started
 
