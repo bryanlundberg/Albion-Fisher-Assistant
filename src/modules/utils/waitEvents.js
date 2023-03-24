@@ -15,6 +15,7 @@ const waitUntilMinigameStarts = () => {
     console.log("searching minigame");
   }
   console.log("minigame started");
+  robot.mouseToggle("down");
   return minigameStarted;
 };
 

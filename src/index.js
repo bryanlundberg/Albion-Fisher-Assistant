@@ -1,4 +1,3 @@
-const robot = require("robotjs");
 const {
   waitUntilMinigameStarts,
   waitUntilMinigameEnds,
@@ -8,7 +7,6 @@ const {
 function main() {
   while (true) {
     waitUntilMinigameStarts();
-    robot.mouseToggle("down");
     waitUntilMinigameEnds();
   }
 }
